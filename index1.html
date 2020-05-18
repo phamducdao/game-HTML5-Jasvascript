@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gardenscapes Playable Ad - MarketJS</title>
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <script charset="utf-8" type="text/javascript">
+        var _SETTINGS = {
+            glowingTime: 1,
+            timeOutWaitIdle: 5,
+            welldoneWaitIdle: 3.3,
+            tutorialFadeoutTime: 2,
+            ios_url: "https://itunes.apple.com/us/app/gardenscapes/id1105855019?mt=8",
+            android_url: "https://play.google.com/store/apps/details?id=com.playrix.gardenscapes",
+        }
+
+        var adDetails = {
+            settings: {
+                language: "jp",
+                disableCustomClose: "on",
+                // render_beacon_urls:[],
+                // click_beacon_urls:[]
+            }
+        };
+    </script>
+
+    <script charset="utf-8" id="gameloader" type="text/javascript" src="game1.js"></script>
+    <div id="ajaxbar">
+        <div id="gamebox" style="position: absolute; top: 0px; left: 0px;">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div id="play" class="play" onclick=""></div>
+    </div>
+</body>
+
+</html>
